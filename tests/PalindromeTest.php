@@ -48,5 +48,14 @@
 
               $this->assertEquals(true, $result);
             }
+          function test_palindromenumbers()
+            {
+              $test_Palindrome = new Palindrome;
+              $input = "101";
+
+              $result = $test_Palindrome->methodpalindrome($input);
+
+              $this->assertEquals(true, $result);
+            }
   }
 ?>

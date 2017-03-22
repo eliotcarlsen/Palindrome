@@ -12,9 +12,9 @@
           }
           if ($str_array == $new_array)
           {
-              return true;
+              return $input . " is a Palindrome!";
           } else {
-              return false;
+              return $input . " is NOT a Palindrome!";
           }
       }
   }
